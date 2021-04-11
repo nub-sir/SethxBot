@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open("{}/SaitamaRobot/{}".format(os.getcwd(), config), "r") as json_file:
+    with open("{}/SethxBot/{}".format(os.getcwd(), config), "r") as json_file:
         return json.load(json_file)[key]
 
 
@@ -21,10 +21,10 @@ class Config(object):
     OWNER_USERNAME = "jacky_xD"
     SUPPORT_CHAT = "SETH_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001176476706
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001480143593
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
