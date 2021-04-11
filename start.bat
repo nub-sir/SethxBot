@@ -1,4 +1,4 @@
-@echo off
-TITLE Saitama Robot
-:: Enables virtual env mode and then starts saitama
-env\scripts\activate.bat && py -m SaitamaRobot
+@echo off 
+TITLE SETH BOT
+:: Enables virtual env mode and then starts seth
+env\scripts\activate.bat && py -m SETHxBot
