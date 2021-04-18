@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
-from SaitamaRobot.modules.connection import connected
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
-from SaitamaRobot.modules.sql.approve_sql import is_approved
+from SethxBot.modules.helper_funcs.string_handling import extract_time
+from SethxBot.modules.connection import connected
+from SethxBot.modules.helper_funcs.alternate import send_message
+from SethxBot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
