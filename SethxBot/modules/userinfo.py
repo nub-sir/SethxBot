@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from SaitamaRobot import (
+from SethxBot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from SaitamaRobot import (
     dispatcher,
     sw,
 )
-from SaitamaRobot.__main__ import STATS, TOKEN, USER_INFO
-import SaitamaRobot.modules.sql.userinfo_sql as sql
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.sql.global_bans_sql import is_user_gbanned
-from SaitamaRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from SaitamaRobot.modules.sql.users_sql import get_user_num_chats
-from SaitamaRobot.modules.helper_funcs.chat_status import sudo_plus
-from SaitamaRobot.modules.helper_funcs.extraction import extract_user
-from SaitamaRobot import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
+from SethxBot.__main__ import STATS, TOKEN, USER_INFO
+import SethxBot.modules.sql.userinfo_sql as sql
+from SethxBot.modules.disable import DisableAbleCommandHandler
+from SethxBot.modules.sql.global_bans_sql import is_user_gbanned
+from SethxBot.modules.sql.afk_sql import is_afk, check_afk_status
+from SethxBot.modules.sql.users_sql import get_user_num_chats
+from SethxBot.modules.helper_funcs.chat_status import sudo_plus
+from SethxBot.modules.helper_funcs.extraction import extract_user
+from SethxBot import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
