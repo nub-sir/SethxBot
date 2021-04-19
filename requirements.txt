@@ -32,3 +32,7 @@ pyrate-limiter
 cachetools
 ujson
 pretty_errors
+humanize
+pytube
+youtubesearchpython
+pyrogram>=1.0.7
