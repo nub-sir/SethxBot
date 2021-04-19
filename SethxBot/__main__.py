@@ -74,9 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
+
 I am an Anime themed poweful group management bot helps you to manage your group.
 I specialize in managing anime and similar themed groups.
 Made with Love 💕 by [Jacky™](https://t.me/jacky_xD)
+
 Access my list of available commands with /help.
 """
 
@@ -104,8 +106,9 @@ And the following:
 
 SETH_IMG = "https://telegra.ph/file/79e6328aa21d374c25cf2.jpg"
 
-DONATE_STRING = """oh you are here to donate!!
- btw we don't ned any funds.. of you still want to donate you can head to @Seth_support for further information.
+DONATE_STRING = """Oh, you are here to donate!
+ btw we don't ned any funds. If you still want to donate you can head to \
+ @Seth_support for further information.\
  Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
 
 IMPORTED = {}
