@@ -6,8 +6,8 @@ from asyncio import sleep
 import os
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
-from SaitamaRobot.utils.ut import get_arg
-from SaitamaRobot import pbot, LOGGER
+from SethxBot.utils.ut import get_arg
+from SethxBot import pbot, LOGGER
 from pyrogram import Client, filters
 from pyrogram.errors import PeerIdInvalid
 from pyrogram.types import Message
