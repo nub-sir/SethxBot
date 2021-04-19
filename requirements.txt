@@ -34,5 +34,5 @@ ujson
 pretty_errors
 humanize
 pytube
-youtubesearchpython
+youtubesearchpython==0.1.1
 pyrogram>=1.0.7
